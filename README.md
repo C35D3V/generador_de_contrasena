@@ -18,37 +18,35 @@ pip install -r requirements.txt
 
 ```
 
-Cómo Usar el Generador de Contraseñas
+## Cómo Usar el Generador de Contraseñas
 
 1. - Clona este repositorio y navega a la carpeta del proyecto:
 
-``` https://github.com/C35D3V/generador_de_contrasena.git 
-
+```bash
+   git clone https://github.com/C35D3V/generador_de_contrasenas.git
+   cd generador_de_contrasenas
 ```
+   
 
 2. - Ejecuta el programa principal:
 
-``` python src/generador_de_contrasena.py
-
+```Bash
+   python src/generador_de_contrasena.py
 ```
 
-3. - Navega por el menú interactivo, donde puedes:
-
-    Generar una o varias contraseñas aleatorias.
-    Analizar la seguridad de una contraseña existente.
-    Verificar si una contraseña ha sido comprometida en bases de datos públicas.
     
-    
-- Ejemplo de Uso
+## Ejemplo de Uso
 
 Al iniciar el programa, verás un menú como este:
 
-=======================================
-=== Menú de Generador de Contraseñas ===
+==================================
+
+== Menú de Generador de Contraseñas ==
 1. Generar una o varias contraseñas
 2. Analizar la seguridad y entropía de una contraseña
 3. Salir
-=======================================
+
+===================================
 
 
 ## Generación de Contraseñas Aleatorias
