@@ -1,0 +1,12 @@
+# Ignora las carpetas de compilación y caché de Python
+__pycache__/
+*.pyc
+
+# Ignora archivos de configuración de entornos virtuales
+venv/
+.env
+
+# Ignora archivos del sistema (macOS, Windows)
+.DS_Store
+Thumbs.db
+
